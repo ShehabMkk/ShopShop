@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-image: url('https://i.pinimg.com/originals/ef/7f/b1/ef7fb1b37078b6a2aef8e40710446bfa.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-header {
+  background-color: rgba(255,255,255,0.9);
+  border-bottom: 2px solid #eee;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.logo i {
+  margin-right: 8px;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.main-nav a i {
+  margin-right: 6px;
+}
+
+.rounded-image-section {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.rounded-image-section h2 {
+  margin-bottom: 40px;
+  font-size: 1.8rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.product-card h3 {
+  margin: 15px 0 10px;
+  font-size: 1.2rem;
+}
+
+.product-card p {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
+
+.product-card button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff6f61;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.product-card button i {
+  font-size: 1.1rem;
+}
+
+.bg-image-section {
+  background-image: url('https://themify.me/wp-content/uploads/2025/06/summer-sales-2025.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 0;
+  position: relative;
+}
+
+.bg-image-section .overlay {
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 60px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.bg-image-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.bg-image-section h2 i {
+  margin-right: 8px;
+}
+
+.bg-image-section p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.bg-image-section button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border: none;
+  background-color: #ffcc00;
+  color: #333;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.bg-image-section button i {
+  font-size: 1.1rem;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+  border-top: 1px solid #eee;
+}
+
+.site-footer i {
+  margin-left: 4px;
+}
